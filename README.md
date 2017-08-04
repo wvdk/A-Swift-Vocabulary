@@ -1,2 +1,2 @@
-# The Personal Vocabulary of One Swift Developer
+# One Developer's Personal Swift Vocabulary
 
