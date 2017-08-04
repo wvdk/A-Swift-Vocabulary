@@ -1,1 +1,2 @@
-# A-Swift-Vocabulary
+# The Personal Vocabulary of One Swift Developer
+
