@@ -9,7 +9,7 @@ import CoreGraphics
 
 extension CGRect {
     
-    /// Creates a rectangle with corners reaching from `pointA` to `pointB`.
+    /// Creates a rectangle with corners reaching from one point to another.
     init(cornersSpanning from: CGPoint, to: CGPoint) {
         let width =  to.x - from.x
         let height =  to.y - from.y
