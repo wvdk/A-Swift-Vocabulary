@@ -16,6 +16,7 @@
 		DE4086361F39F8FC00F1AF36 /* SliderTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4086351F39F8FC00F1AF36 /* SliderTrack.swift */; };
 		DE6EA87D1F3B77B000B616FC /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6EA87C1F3B77B000B616FC /* Slider.swift */; };
 		DE6EA8811F3C5E6D00B616FC /* SliderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */; };
+		DE7F51C91F4487630096854F /* InterfaceElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F51C81F4487630096854F /* InterfaceElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		DE4086351F39F8FC00F1AF36 /* SliderTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderTrack.swift; sourceTree = "<group>"; };
 		DE6EA87C1F3B77B000B616FC /* Slider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
 		DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderNode.swift; sourceTree = "<group>"; };
+		DE7F51C81F4487630096854F /* InterfaceElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				DE4086251F39F31100F1AF36 /* ViewController.swift */,
 				DE4086231F39F31100F1AF36 /* GameScene.swift */,
 				DE6EA87C1F3B77B000B616FC /* Slider.swift */,
+				DE7F51C81F4487630096854F /* InterfaceElement.swift */,
 				DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */,
 				DE4086331F39F38F00F1AF36 /* SliderKnob.swift */,
 				DE4086351F39F8FC00F1AF36 /* SliderTrack.swift */,
@@ -152,6 +155,7 @@
 				DE4086361F39F8FC00F1AF36 /* SliderTrack.swift in Sources */,
 				DE6EA8811F3C5E6D00B616FC /* SliderNode.swift in Sources */,
 				DE4086241F39F31100F1AF36 /* GameScene.swift in Sources */,
+				DE7F51C91F4487630096854F /* InterfaceElement.swift in Sources */,
 				DE40861E1F39F31100F1AF36 /* AppDelegate.swift in Sources */,
 				DE4086341F39F38F00F1AF36 /* SliderKnob.swift in Sources */,
 				DE6EA87D1F3B77B000B616FC /* Slider.swift in Sources */,
