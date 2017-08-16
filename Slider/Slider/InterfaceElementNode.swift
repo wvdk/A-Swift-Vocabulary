@@ -10,6 +10,7 @@ import Foundation
 
 protocol InterfaceElementNode {
     
+    /// A reverence to the `InterfaceElement` that owns this node.
     var owner: InterfaceElement? { get set }
     
 }
