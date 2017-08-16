@@ -10,4 +10,6 @@ import Foundation
 
 protocol InterfaceElement {
     
+    var node: InterfaceElementNode? { get set }
+    
 }
