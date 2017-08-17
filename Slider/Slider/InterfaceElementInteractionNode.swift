@@ -1,5 +1,5 @@
 //
-//  InterfaceElementNode.swift
+//  InterfaceElementInteractionNode.swift
 //  Slider
 //
 //  Created by Wesley Van der Klomp on 8/16/17.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol InterfaceElementNode {
+protocol InterfaceElementInteractionNode {
     
     /// A reverence to the `InterfaceElement` that owns this node.
     var owner: InterfaceElement? { get set }
