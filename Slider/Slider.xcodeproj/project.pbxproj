@@ -18,6 +18,7 @@
 		DE6EA8811F3C5E6D00B616FC /* SliderNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */; };
 		DE7F51C91F4487630096854F /* InterfaceElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F51C81F4487630096854F /* InterfaceElement.swift */; };
 		DE7F51CB1F4488080096854F /* InterfaceElementInteractionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F51CA1F4488080096854F /* InterfaceElementInteractionNode.swift */; };
+		DE7F51CD1F4572E10096854F /* InterfaceElementInteractionResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7F51CC1F4572E10096854F /* InterfaceElementInteractionResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderNode.swift; sourceTree = "<group>"; };
 		DE7F51C81F4487630096854F /* InterfaceElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceElement.swift; sourceTree = "<group>"; };
 		DE7F51CA1F4488080096854F /* InterfaceElementInteractionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceElementInteractionNode.swift; sourceTree = "<group>"; };
+		DE7F51CC1F4572E10096854F /* InterfaceElementInteractionResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceElementInteractionResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				DE7F51CA1F4488080096854F /* InterfaceElementInteractionNode.swift */,
 				DE6EA87C1F3B77B000B616FC /* Slider.swift */,
 				DE6EA8801F3C5E6D00B616FC /* SliderNode.swift */,
+				DE7F51CC1F4572E10096854F /* InterfaceElementInteractionResponder.swift */,
 				DE4086331F39F38F00F1AF36 /* SliderKnob.swift */,
 				DE4086351F39F8FC00F1AF36 /* SliderTrack.swift */,
 				DE4086271F39F31100F1AF36 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				DE4086261F39F31100F1AF36 /* ViewController.swift in Sources */,
 				DE4086361F39F8FC00F1AF36 /* SliderTrack.swift in Sources */,
+				DE7F51CD1F4572E10096854F /* InterfaceElementInteractionResponder.swift in Sources */,
 				DE6EA8811F3C5E6D00B616FC /* SliderNode.swift in Sources */,
 				DE4086241F39F31100F1AF36 /* GameScene.swift in Sources */,
 				DE7F51C91F4487630096854F /* InterfaceElement.swift in Sources */,
