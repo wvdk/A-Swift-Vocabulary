@@ -10,10 +10,10 @@ import Foundation
 import SpriteKit
 
 /// A SKShapeNode subclass for handling user interaction and passing that event info to `owner`.
-class SliderNode: SKShapeNode, InterfaceElementInteractionDelegate {
+class SliderNode: SKShapeNode {
 
     /// A reverence to the object that owns this object.
-    var owner: InterfaceElement? = nil
+    var owner: Slider? = nil
 
     // MARK: NSResponder methods
 
