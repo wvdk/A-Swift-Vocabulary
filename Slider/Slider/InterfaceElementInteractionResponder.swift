@@ -13,4 +13,6 @@ import Foundation
 /// This protocol is likely conformed to by some subclass of NSResponder. It will then take those `mouseDown()`, `mouseClicked()`, etc. events and call the appropriate methods on `owner`.
 protocol InterfaceElementInteractionResponder {
     
+//    var owner: 
+    
 }
