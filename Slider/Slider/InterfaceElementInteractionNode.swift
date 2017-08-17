@@ -8,6 +8,7 @@
 
 import Foundation
 
+/// Sends interaction events to the owner so it can handle when a user clicks, drags, etc. on the node.
 protocol InterfaceElementInteractionDelegate {
     
     /// A reverence to the `InterfaceElement` that owns this node.
