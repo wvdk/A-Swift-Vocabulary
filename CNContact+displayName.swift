@@ -37,4 +37,31 @@ extension CNContact {
         }
     }
     
+    /// A calculated property returning the phone number which is most likely to be useful to a mobile app (if any).
+    var bestFoundPhoneNumber: String? {
+        get {
+            print("wid: phoneNumbers: \(self.phoneNumbers)")
+            
+            let bestNumber: CNPhoneNumber? = {
+                if let i = phoneNumbers.index(where: { $0.label == CNLabelPhoneNumberMobile }) {
+                    return phoneNumbers[i].value
+                }
+                
+                if let i = phoneNumbers.index(where: { $0.label == CNLabelPhoneNumberMain }) {
+                    return phoneNumbers[i].value
+                }
+                
+                if let i = phoneNumbers.index(where: { $0.label == CNLabelPhoneNumberiPhone }) {
+                    return phoneNumbers[i].value
+                }
+                
+                return phoneNumbers.first?.value
+            }()
+            
+            guard let bestNumberString = bestNumber?.stringValue, bestNumberString != "" else { return nil }
+            
+            return bestNumberString
+        }
+    }
+    
 }
